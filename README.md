@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## <u>corporate-site01</u>
 
-## Getting Started
+##### <概要>
+友人から依頼され作成したコーポレートサイトです。
+デザインからすべてを自分で作成しました。
+安っぽいサイトにならないようにアニメーションを意識的に取り入れました。
+[URL]: https://corporate-site01-for-public.vercel.app/
+<img src="public/readme/pc-screen.jpg" alt="pc-screen" title="pc-screen" width="380" height="300"><img src="public/readme/sp-screen.jpg" alt="sp-screen" title="sp-screen" width="170" height="250">
 
-First, run the development server:
+##### <製作日>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2024年2月（制作期間：約10日）
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##### <仕様>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- バックエンド：なし
+- レスポンシブ対応
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+##### <使用技術>
 
-## Learn More
+Next.js13(app router), Next.js, recoil, anime.js, tailwind, shadcn, typescript, etc
 
-To learn more about Next.js, take a look at the following resources:
+##### <パフォーマンス>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<img src="public/readme/pagespeed-pc.png" alt="pagespeed-pc" title="pagespeed-pc" width="450" height="300"><img src="public/readme/pagespeed-sp.png" alt="pagespeed-sp" title="pagespeed-sp" width="450" height="300">
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+##### <参考URL>
 
-## Deploy on Vercel
+<レスポンシブ>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [tailwindcss Customizing Screens](https://tailwindcss.com/docs/screens)
+- [responsively.app](https://responsively.app/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<背景imageが実機で表示されない問題>
+
+- [SVG Background Image の利用手順](https://qiita.com/mimonelu/items/68a57a8c3c5a89404e5b)
+- [URLエンコード・デコードフォーム](https://www.tagindex.com/tool/url.html)
+- [SVG filter makes element invisible in Safari and mobile Chrome](https://stackoverflow.com/questions/48109988/svg-filter-makes-element-invisible-in-safari-and-mobile-chrome)
+
+<アニメーション>
+- [画像が自動切り替わるCSSアニメーション](https://zenn.dev/ohtasoji/articles/16b7391074bcdb)
+- [CodePen SVG line drawing animation](https://codepen.io/juliangarnier/pen/ZeEpgd)
+- [矢印スクロールアニメーション](https://coco-factory.jp/ugokuweb/move01/9-1-4/)
+- [【CSS】マーカー風のアンダーラインをつける](https://design-baum.jp/develop/877/)
+
+<next/font>
+- [Next.js 13×Tailwind @next/fontでGoogleFontsやローカルフォントを高速化してみる](https://zenn.dev/tsuyoshi/articles/894592ac677148)
+
+<スマホで100vhがはみ出る問題>
+- [スマホで100vhがはみ出るときの対策（ios,android)](https://devsakaso.com/javascript-100vh-problem-on-mobile-screens/)
+
+<スマホでcss animationが反応しない問題>
+
+- [CSSのanimationがiOSのChromeで動かない…transitionで対応](https://taupe.site/entry/css-animation-ios-chrome/#google_vignette)
+- [JavaScript | スクロールで要素が画面内に入ったら実行するイベントの実装方法](https://1-notes.com/javascript-event-when-the-element-enters-the-screen-by-scrolling/#google_vignette)
