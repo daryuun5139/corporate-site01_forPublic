@@ -5,6 +5,7 @@
 デザインからすべてを自分で作成しました。
 安っぽいサイトにならないようにアニメーションを意識的に取り入れました。
 [URL]: https://corporate-site01-for-public.vercel.app/
+
 <img src="public/readme/pc-screen.jpg" alt="pc-screen" title="pc-screen" width="380" height="300"><img src="public/readme/sp-screen.jpg" alt="sp-screen" title="sp-screen" width="170" height="250">
 
 ##### <製作日>
@@ -22,7 +23,7 @@ Next.js13(app router), Next.js, recoil, anime.js, tailwind, shadcn, typescript, 
 
 ##### <パフォーマンス>
 
-<img src="public/readme/pagespeed-pc.png" alt="pagespeed-pc" title="pagespeed-pc" width="450" height="300"><img src="public/readme/pagespeed-sp.png" alt="pagespeed-sp" title="pagespeed-sp" width="450" height="300">
+<img src="public/readme/pagespeed-pc.png" alt="pagespeed-pc" title="pagespeed-pc" width="400" height="300"><img src="public/readme/pagespeed-sp.png" alt="pagespeed-sp" title="pagespeed-sp" width="400" height="300">
 
 ##### <参考URL>
 
